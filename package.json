@@ -1,0 +1,27 @@
+{
+  "name": "Learning-git-2",
+  "version": "1.0.0",
+  "description": "https://merist5.github.io/Learning-git-2/",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test:html",
+    "test:html": "nu-html-checker *.html",
+
+    "init-project": "npm install && mkdir -p sass css vendor images js && touch README.md index.html sass/style.scss js/script.js && curl https://raw.githubusercontent.com/github/gitignore/master/Node.gitignore -o .gitignore"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Merist5/Learning-git-2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Merist5/Learning-git-2/issues"
+  },
+  "homepage": "https://github.com/Merist5/Learning-git-2#readme",
+  "devDependencies": {
+    "autoprefixer-cli": "^1.0.0",
+    "nu-html-checker": "^0.1.0"
+  }
+}
